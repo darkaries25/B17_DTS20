@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<title>Tugas 1 TIM 17</title>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+ <style>
+ header{
+	width: 800px;
+    margin: 0 auto; 
+ }
+body {
+width: 800px;
+margin: 0 auto;
+background-image: url(images/4.jpg); 	
+}
+ 	.utama{ 		
+	padding: 30px 0 10px 0;
+	background-image: url(images/fff.jpg);
+	}
+	.menu{
+		margin-top:5px;
+	background-color: rgba(34, 49, 52, 0.9);
+	height:57px;
+	}
+  	.menu a{
+ 	float:right; 	 
+ 	color:#ecf0f1; 	
+ 	}
+	.btn{
+		padding: 12px 24px;
+  		color: white;
+  		display: inline-block;
+  		opacity: 0.8;
+  		border-radius: 4px;
+			}
+	.btn:hover {
+		opacity: 1;
+	}
+	.home{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(images/bck_menu.png);
+	}
+		.geleri{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(images/bck_menu.png);
+	}
+		.agenda{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(images/bck_menu.png);
+	}
+		.profile{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(images/bck_menu.png);
+	}
+		.download{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(images/bck_menu.png);
+	}
+ 	.mySlide {
+	  display:none;
+	 }
+	 .extra_1 h3{
+		 color:#000;
+	 }
+	 .extra_1 table{
+		 padding:10px 20px 20px 20px;
+		 color:#000;	 
+	 }
+	 .w3-content{
+		background-image: url(images/img_extra1.jpg);	
+	 }
+	 .w3-content h2{
+		 color:#d35400;
+		 font-size:18px;
+		 font-style:oblique;
+	 }
+	 .sosmed{
+		 float:left;
+		padding: 5px; 
+	 }
+	 footer{
+	width: 800px;
+	height:40px;
+    margin: 0 auto; 
+	color :#d35400;
+	 background-color: rgba(34, 49, 52, 0.9);
+ }
+	 </style>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<body onLoad="plusDivs(-0)">
+<header>
+<img src="Images/1.jpg" height=165px width=800px>
+	<div class="menu">
+    
+     <a href="#" class="btn download">Download Area</a>
+     <a href="#" class="btn geleri">Geleri</a>
+     <a href="#" class="btn agenda">Agenda Kegiatan</a>
+     <a href="#" class="btn profile">Profile</a>
+     <a href="#" class="btn home">Home</a>
+	  
+	</div>
+</header>
+
+<div class="utama" style="border:thin">
+	<div class="extra_1">
+  		<h3 align="center">TIM / Kelompok 17</h3>
+  		<table border="0" align="center">
+    	<tr>
+      	<td><div align="justify">Adalah kelompok yang terdiri dari lima anak manusia bernama xxxxxxxxx asal kota xxxxxxxxx, xxxxxxxxx asal
+      	  kota xxxxxxxxx, xxxxxxxxx asal kota xxxxxxxxx, xxxxxxxxx asal kota xxxxxxxxx, dan xxxxxxxxx asal kota xxxxxxxxx. kami 
+      	  mempunya kesamaan dan ketertarikan di bidang design website, HTML dan CSS code, Algoritma dan coding Java Script serta 
+      	  management database SQL. melalui program Digitalet yang diselenggarakan Dinas Komunikasi dan Informasi bekerjasama dengan 
+      	  Progate yang merupakan Platform Kursus Belajar Coding Online di Indonesia kami dipertemukan dalam satu bagian besar 
+      	  klas belajar B&quot; dari situ kami mulai berkenalan satu sama lain hingga akhirnya membentuk kelompok belajar 
+      	  tersendiri untuk menyelesaikan tugas-tugas dari pemateri. ......................................................... 
+      	  &lt;lanjutkan&gt;</div></td>
+    	</tr>
+  		</table>
+	</div>
+
+
+    <div class="w3-content w3-display-container" align="center" style="width: 650px">
+    <blink><h2 class="w3-center">Profile TIM 17</h2></blink>
+    
+  <table width=600px height=500px border="0" class="mySlides">
+        <tr>
+          <td width=155><div align="left">Nama</div></td>
+          <td width=8><div align="left">:</div></td>
+          <td width=415> <div align="left">Aries Wahyudi</div></td>
+        </tr>
+        <tr>
+          <td><div align="left">Tempat / Tanggal lahir</div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left">Banjarmasin, 8 Maret 1987</div></td>
+        </tr>
+        <tr>
+          <td><div align="left">Jenis Kelamin</div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left">Laki-laki</div></td>
+        </tr>
+        <tr>
+          <td><div align="left">Alamat</div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left">Jl. Trans Kalimantan, Komplek Alamanda</div></td>
+        </tr>
+        <tr>
+          <td><div align="left">
+            <p>Motivasi ikut diklat</p>
+            <p>&nbsp;</p>
+          </div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left">Ingin mempelajari kembali ilmu Design Website, penulisan coding HTML dan CSS, penulisan coding dan logika Java Script serta Management database SQL.</div></td>
+        </tr>
+        <tr>
+          <td><div align="left">
+            <p>Foto</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+          </div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left"><img src="Images/Aries.jpeg" width="120" height="130"></div></td>
+        </tr>
+        <tr>
+          <td><div align="left">Sosial Media</div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left">
+          <div align="center" class="sosmed">
+            <p><a href="xxx"> <img src="https://www.wired.com/wp-content/uploads/2015/09/google-logo-1200x630.jpg" width="30" height="30"></a>              </p>
+            <p>Email</p>
+          </div>
+          <div align="center" class="sosmed">
+            <p><a href="xxx"> <img src="https://image.shutterstock.com/image-photo/valencia-spain-march-05-2017-260nw-593204357.jpg" width="30" height="30"></a>              </p>
+            <p>Fb</p>
+          </div>
+          <div align="center" class="sosmed">
+            <p><a href="xxx"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" width="30" height="30"></a>              </p>
+            <p>Ig</p>
+          </div>
+                   
+          </td>
+        </tr>
+      </table>
+     
+  <table width=600px height=500px border="0" class="mySlides">
+        <tr>
+          <td width=155><div align="left">Nama</div></td>
+          <td width=8><div align="left">:</div></td>
+          <td width=415>  <div align="left">Amrulah</div></td>
+      </tr>
+        <tr>
+          <td><div align="left">Tempat / Tanggal lahir</div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left">Marabahan, tidak diketahui</div></td>
+        </tr>
+        <tr>
+          <td><div align="left">Jenis Kelamin</div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left">Laki-laki</div></td>
+        </tr>
+        <tr>
+          <td><div align="left">Alamat</div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left">Keberadaannya tidak diketahui lagi di seluruh wilayah republik indonesia</div></td>
+        </tr>
+        <tr>
+          <td><div align="left">
+            <p>Motivasi ikut diklat<br>
+              <br>
+              <br>
+            </p>
+          </div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left">sangat berminat dibidang IT, tapi salah jurusan ngambil kuliah bidang hukum</div></td>
+        </tr>
+        <tr>
+          <td><div align="left">
+            <p>Foto</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+          </div></td>
+          <td><div align="left">:</div></td>
+          <td><div align="left"><img src="Images/Aam.jpeg" width="120" height="130"></div></td>
+        </tr>
+        <tr>
+          <td><div align="left">Sosial Media</div></td>
+          <td><div align="left">:</div></td>
+          <td>
+          <div align="center" class="sosmed">
+            <p><a href="xxx"> <img src="https://www.wired.com/wp-content/uploads/2015/09/google-logo-1200x630.jpg" width="30" height="30"></a>              </p>
+            <p>Email</p>
+          </div>
+          <div align="center" class="sosmed">
+            <p><a href="xxx"> <img src="https://image.shutterstock.com/image-photo/valencia-spain-march-05-2017-260nw-593204357.jpg" width="30" height="30"></a>              </p>
+            <p>Fb</p>
+          </div>
+          <div align="center" class="sosmed">
+            <p><a href="xxx"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" width="30" height="30"></a>              </p>
+            <p>Ig</p>
+          </div>
+          </div></td>
+        </tr>
+      </table>
+    
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+</div>
+
+<footer>
+<marquee> 
+<p>SELAMAT DATANG DI HALAMAN WEBSITE TIM 17 </p>
+</marquee>
+<br>
+<p>Copyright © DT17 Digitalent 2020</p>
+</footer>
+</body>
+</html>
