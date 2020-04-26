@@ -133,6 +133,13 @@ background-image: url(4.jpg);
 		color :#d35400;
 	 	background-color: rgba(34, 49, 52, 0.9);
  	}
+#myDIV {  
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {color: #5f5d60;}
+  to {color: blue;}
+}
  /*script Body dan Menu dari Aries Akhir*/ 
  
  
