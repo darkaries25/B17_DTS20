@@ -1,0 +1,212 @@
+@media(max-width:1000px){
+ 	header{
+	width:50% 
+ 	}
+ }
+ header{
+	width: 800px;
+    margin: 0 auto; 
+ }
+ 
+ /*script Header dari Amrul AWAL*/
+ .container {
+	width: 800px;
+	margin: auto;
+}
+
+.header {
+	height: 250px;
+	background-color: yellow;
+	position: relative;
+	background-image: url(banner.png);
+	background: cover;
+}
+
+.judul {
+	width: 620px;
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
+.judul h1 {
+	padding-top: 15px;
+	font-size: 40px;
+	margin-bottom: -10px;
+}
+
+.judul p {
+	font-size: 16px;
+	padding-top: px;
+}
+
+.logo {
+	position: absolute;
+	height: 140px;
+	width: 140px;
+	margin-left: 25px;
+	top: 165px;
+	border: 5px solid white;
+	/* background-image: url(logo.png);
+	background-position: 0 -25px; */
+}
+
+.logo img {
+	height: 140px;
+	width: 140px;
+}
+ /*script Header dari Amrul AKHIR*/ 
+ 
+ /*script Body dan Menu dari Aries Awal*/ 
+body {
+width: 800px;
+margin: 0 auto;
+background-image: url(4.jpg); 	
+}
+ 	.utama{ 		
+	padding: 30px 0 10px 0;
+	
+	}
+	.menu{
+		margin-top:5px;
+	background-color: rgba(34, 49, 52, 0.9);
+	height:57px;
+	}
+  	.menu a{
+ 	float:right; 	 
+ 	color:#ecf0f1; 	
+ 	}
+	.btn{
+		padding: 12px 24px;
+  		color: white;
+  		display: inline-block;
+  		opacity: 0.8;
+  		border-radius: 4px;
+			}
+	.btn:hover {
+		opacity: 1;
+	}
+	.home{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(bck_menu.png);
+	}
+		.geleri{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(bck_menu.png);
+	}
+		.agenda{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(bck_menu.png);
+	}
+		.peropil{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(bck_menu.png);
+	}
+		.download{
+	margin-right: 2px;	
+	margin-top: 5px;
+	background-image: url(bck_menu.png);
+	}
+ 	.mySlide {
+	  display:none;
+	 }
+	 .extra_1 h3{
+		 color:#000;
+	 }
+	 .extra_1 table{
+		 padding:10px 20px 20px 20px;
+		 color:#000;	 
+	 }
+	 .w3-content h2{
+		 color:#d35400;
+		 font-size:18px;
+		 font-style:oblique;
+	 }
+	 footer{
+		width: 800px;
+		height:40px;
+    	margin: 0 auto; 
+		color :#d35400;
+	 	background-color: rgba(34, 49, 52, 0.9);
+ 	}
+ /*script Body dan Menu dari Aries Akhir*/ 
+ 
+ 
+  /*script Extra sub Body dari Yosi Awal*/ 
+ .extra1 {
+  width:800px;
+  height:300px;
+  margin:0 auto;
+  padding-bottom: 50px;
+  background-image: url(fff.jpg);
+  text-align: center;
+}
+
+.container-extra1 {
+  padding-bottom:30px;
+  letter-spacing: 5px;
+}
+
+.photo {
+  float:left;
+  width:20%
+}
+
+.photo p {
+  line-height:20px;
+  margin: 0 auto;
+}
+
+.name {
+  color:rgb(235, 89, 4);
+  font-size: 20px;
+}
+
+.job {
+  font-size: 14px;
+    color:#FFF;
+}
+
+.extra2 {
+  width: 800px;
+  height:400px;
+  margin:0 auto;
+  padding-bottom: 50px;
+  background-image: url(ggg.jpg);
+  text-align: center;
+  color:#FFF;
+}
+
+.heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.profile {
+  float: left;
+  width: 20%;
+}
+
+/* Tambahkan CSS untuk lesson-icon */
+.profile-icon {
+  position:relative;
+}
+
+/* Tambahkan CSS untuk txt-profile */
+.text-profile {
+  width:90%;
+  display:inline-block;
+  margin-top:15px;
+  font-size:14px;
+    color:#FFF;
+}
+  /*script Extra sub Body dari Yosi Akhir*/
