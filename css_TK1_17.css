@@ -182,6 +182,11 @@ background-image: url(4.jpg);
 		color :#d35400;
 	 	background-image: url(footer.png);
  	}
+.photo img{
+	width:64px;
+	height:64px;
+	border-radius: 50%;
+}
 	#myDIV {  
   animation: mymove 5s infinite;
 }
