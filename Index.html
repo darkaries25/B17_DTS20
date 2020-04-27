@@ -3,6 +3,7 @@
 <title>Tugas 1 TIM 17</title>
 <head>
     <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="w3.css">
      <link rel="stylesheet" href="css_TK1_17.css">
 </head>
@@ -27,11 +28,11 @@ function showDivs(n) {
 }
 </script>
 
-<body onLoad="plusDivs(-0)">
+<body onLoad="plusDivs(-0)" >
 
 <header>
 <!-- HTML HEADER dari amrul Awal -->
-<div class="container">
+<div class="container" align="center" style="width: 800px">
 		<div class="header">
 			<div class="judul">
 				<h1>Website TIM B17</h1>
@@ -58,11 +59,11 @@ function showDivs(n) {
       <div class="extra1">
         <div class="container">
           <div class="heading">
-	    <div id="myDIV">
-              <h1>MEET OUR TEAM</h1>
-              <p>Meet the people behind B17. Our team is built under 2020 DIGITALENT Project. This website is our latest work to show our creation in web designing.</p>
-            </div>
-	  </div>
+          	<div id="myDIV">
+                <h1>MEET OUR TEAM</h1>
+                <p>Meet the people behind B17. Our team is built under 2020 DIGITALENT Project. This website is our latest work to show our creation in web designing.</p>
+            </div>            
+          </div>
 
           <div class="photos">
             <div class="photo">
@@ -135,21 +136,24 @@ function showDivs(n) {
               <div class="profile-icon">
                 <img src="iconfinder_profile-male_416918.png" style="width:128px">
                 <p>Arif Widakdo</p>
-                <p class="text-profile">Memperdalam ilmu adalah kegemaran nya, disela-sela kesibukan sebagai pegawai disalah satu perusahaan swasta ibukota selalu menyempatkan diri belajar dan belajar, salah satunya melalui Diklat Online "Digitalen Kominfo"</p>
+                <p class="text-profile">.................................</p>
               </div>
             </div>
-
             <div class="mySlides">
               <div class="profile-icon">
                 <img src="iconfinder_profile-male_416918.png" style="width:128px">
                 <p>AE</p>
-                <p class="text-profile">Ingin belajar Design Website menjadi motivasi utamanya dalam mengikuti Diklat Online "Digitalen Kominfo", berharap ilmu yang didapat dalam kegiatan ini bisa diterapkan untuk mengembangkan usaha</p>
+                <p class="text-profile">.................................</p>
               </div>
             </div>
           </div>
       	</div>   
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>  
+        <div class="btn_navigasi">
+        	<div class="Navigasi">
+            	<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      		<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button> 
+            </div>        
+        </div>       
       </div>
       
 
@@ -159,11 +163,18 @@ function showDivs(n) {
 </div>
 
 <footer>
-<marquee> 
-<p>SELAMAT DATANG DI HALAMAN WEBSITE TIM 17 </p>
-</marquee>
-<br>
-<p>Copyright © DT17 Digitalent 2020</p>
+<div class="container" align="center" style="width: 800px">
+	<div class="Container_isi">
+    	<div class="cob_foter">
+        	<marquee> 
+			<p>SELAMAT DATANG DI HALAMAN WEBSITE TIM 17 
+        	</p>
+			</marquee>
+			<br>
+			<p>Copyright © DT17 Digitalent 2020</p>
+        </div>
+    </div>
+</div>
 </footer>
 </body>
 </html>
