@@ -180,7 +180,7 @@ background-image: url(4.jpg);
 		height:40px;
     	margin: 0 auto; 
 		color :#d35400;
-	 	background-color: rgba(34, 49, 52, 0.9);
+	 	background-image: url(footer.png);
  	}
 	#myDIV {  
   animation: mymove 5s infinite;
